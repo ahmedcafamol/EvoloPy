@@ -73,7 +73,7 @@ def FFA(objf,lb,ub,dim,n,MaxGeneration):
     s=solution()
 
      
-    print("CS is optimizing  \""+objf.__name__+"\"")    
+    print("FFA is optimizing  \""+objf.__name__+"\"")    
     
     timerStart=time.time() 
     s.startTime=time.strftime("%Y-%m-%d-%H-%M-%S")
